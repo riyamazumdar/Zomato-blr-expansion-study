@@ -64,4 +64,36 @@ the full dataset(548MB) is available on Kaggle:- https://www.kaggle.com/datasets
 > engagement metrics.
 
 ---
+## Phase 3 — Python EDA & ML Models ✅
 
+**Notebooks:** `04_eda_and_visuals.ipynb` · `05_ml_success_score.ipynb` · 
+`06_price_elasticity.ipynb`
+
+### EDA — 10 Business Charts
+- Top 15 locations by average rating
+- Top 10 cuisines by customer engagement
+- Online vs offline rating comparison
+- Restaurant type performance
+- Cost distribution by restaurant type
+- Rating distribution across Bangalore
+- Top 10 locations by engagement
+- Cost vs rating scatterplot
+- Expansion opportunity map
+- Table booking vs no booking comparison
+
+### ML Success Score Model
+- **Algorithm:** Random Forest Classifier (100 trees)
+- **Accuracy:** 91.4% | **Precision:** 93.8% | **Recall:** 75.8%
+- **Top predictor:** Votes (customer engagement) dominates all other features
+- **Key finding:** A well-positioned restaurant is 15x more likely to 
+  succeed than a poorly positioned one
+- **Location insight:** Lavelle Road has Bangalore's highest success rate
+- **Cuisine insight:** Modern Indian has highest success rate despite 
+  lower volume — significant market gap
+
+### Price Elasticity Analysis
+- Ratings increase consistently with price across all buckets
+- Biggest quality jump occurs at ₹1000+ (avg rating 4.13)
+- **Biryani** shows highest price elasticity — premium pricing works
+- ₹200-400 is most crowded segment — new entrants should go budget 
+  or premium to differentiate
